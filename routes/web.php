@@ -41,7 +41,7 @@ Route::get('/checkout', function () {
 Route::get('/phone',[ProductController::class,'phone'])->name('phone');
 Route::get('/laptop',[ProductController::class,'laptop'])->name('laptop');
 Route::get('/supplement',[ProductController::class,'supplement'])->name('supplement');
-Route::get('/camera',[ProductController::class,'camera'])->name('camera');
+Route::get('/herbal',[ProductController::class,'herbal'])->name('herbal');
 // product controller
 Route::get('/products',[ProductController::class,'showAllProducts'])->name('products');
 Route::get('/products/{id}',[ProductController::class,'showProductDetails'])->name('products/{id}');

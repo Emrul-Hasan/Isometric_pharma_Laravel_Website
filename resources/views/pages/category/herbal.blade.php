@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Camera Category</title>
+    <title>Herbal Category</title>
 
 </head>
 @extends('../../layouts.app')
 @section('content')
 <div class="container">
     <div class="row">
-        <h3 class="my-3 fw-bold">Camera Category</h3>
-        @foreach ($camera as $product)
+        <h3 class="my-3 fw-bold">Herbal Category</h3>
+        @foreach ($herbal as $product)
         <div class="col-3">
             <div class="card-group">
                 <div class="card mb-4">

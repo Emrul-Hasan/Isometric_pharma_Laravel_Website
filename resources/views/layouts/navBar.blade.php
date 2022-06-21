@@ -72,7 +72,7 @@
                             <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('supplement') }}">Supplement & vitamines</a>
                           <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('phone') }}">Mobile</a>
                           <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('laptop') }}">Laptop</a>
-                          <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('camera') }}">Camera</a>
+                          <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('herbal') }}">Herbal</a>
                         </div>
                       </div>
 

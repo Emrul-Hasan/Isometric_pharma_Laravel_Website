@@ -50,7 +50,7 @@
                             <td  class="pr-3 py-2"><select name="category" class="form-control w-100">
                                     <option value="Phone">Phone</option>
                                     <option value="Laptop">Laptop</option>
-                                    <option value="Camera">Camera</option>
+                                    <option value="Herbal">Herbal</option>
                                     <option value="Supplement">Supplement</option>
                                 </select></td>
                             <td>
