@@ -59,11 +59,11 @@ class ProductController extends Controller
         $product = Product::where('category', 'supplement')->get();
         return view('pages.category.supplement', ['supplement' => $product], ['ratings' => $ratings]);
     }
-    public function laptop()
+    public function personal()
     {
         $ratings = ProductRating::all();
-        $product = Product::where('category', 'laptop')->get();
-        return view('pages.category.laptop', ['laptop' => $product], ['ratings' => $ratings]);
+        $product = Product::where('category', 'personal')->get();
+        return view('pages.category.personal', ['personal' => $product], ['ratings' => $ratings]);
     }
 
     
