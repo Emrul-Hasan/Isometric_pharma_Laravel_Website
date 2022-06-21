@@ -68,7 +68,7 @@
                                         <option value="Phone">Phone</option>
                                         <option value="Laptop">Laptop</option>
                                         <option value="Camera">Camera</option>
-                                        <option value="Television">Television</option>
+                                        <option value="Supplement">Supplement</option>
                                     </select></td>
                                 <td>
                                     <div>

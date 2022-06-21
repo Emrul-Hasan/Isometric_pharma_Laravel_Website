@@ -40,7 +40,7 @@ Route::get('/checkout', function () {
 // category (Product COntroller)
 Route::get('/phone',[ProductController::class,'phone'])->name('phone');
 Route::get('/laptop',[ProductController::class,'laptop'])->name('laptop');
-Route::get('/television',[ProductController::class,'television'])->name('television');
+Route::get('/supplement',[ProductController::class,'supplement'])->name('supplement');
 Route::get('/camera',[ProductController::class,'camera'])->name('camera');
 // product controller
 Route::get('/products',[ProductController::class,'showAllProducts'])->name('products');

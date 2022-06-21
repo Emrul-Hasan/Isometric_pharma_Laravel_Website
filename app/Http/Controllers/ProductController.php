@@ -53,11 +53,11 @@ class ProductController extends Controller
         $product = Product::where('category', 'camera')->get();
         return view('pages.category.camera', ['camera' => $product], ['ratings' => $ratings]);
     }
-    public function television()
+    public function supplement()
     {
         $ratings = ProductRating::all();
-        $product = Product::where('category', 'television')->get();
-        return view('pages.category.television', ['television' => $product], ['ratings' => $ratings]);
+        $product = Product::where('category', 'supplement')->get();
+        return view('pages.category.supplement', ['supplement' => $product], ['ratings' => $ratings]);
     }
     public function laptop()
     {
