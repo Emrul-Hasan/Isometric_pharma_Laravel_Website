@@ -15,8 +15,9 @@
 @extends('../../layouts.app')
 @section('content')
 <div>
-    
-    <div style=" background: linear-gradient(#fff,whitesmoke);">
+     
+<!-- background color: linear-gradient(#fff,whitesmoke); -->
+    <div style=" background: #FFEEF8;">
         {{-- header start --}}
         <div class="header">
             <div class="container">
