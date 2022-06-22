@@ -142,20 +142,6 @@ Route::get('/orderList',[OrderController::class,'allOrderList'])->name('orderLis
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // for seller
 Route::post('/addProduct',[ProductController::class,'listingProduct'])->name('addProduct')->middleware([ValidSeller::class]);
 Route::get('/addProduct',[ProductController::class,'allProduct'])->name('addProduct')->middleware([ValidSeller::class]);
