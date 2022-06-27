@@ -49,7 +49,7 @@
         </div>
         <div class="col-12 navbar navbar-expand-lg bg-info ">
             <div class="container py-1 px-5" style="background: darkblue; border-radius: 30px">
-                {{-- <h5 class="fw-bold text-white">E-commerce</h5> --}}
+             
 
 
                 <div class="brandFont text-white pt-1 d-flex justify-content-center align-items-center px-2 font-weight-bold"

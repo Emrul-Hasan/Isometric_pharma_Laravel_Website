@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -47,7 +47,7 @@
 
 <!-- Feadtued Categories -->
 
-<div class="categories">
+<!-- <div class="categories">
     <div class="small-container">
         <div class="row">
             <div class="col-3">
@@ -61,11 +61,11 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Featured Products -->
 
-<div class="small-container">
+<!-- <div class="small-container">
     <h2 class="title">Featured Products</h2>
     <div class="row">
         <div class="col-4">
@@ -144,10 +144,10 @@
             <p>$50.00</p>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Offer -->
-<div class="offer">
+<!-- <div class="offer">
     <div class="small-container">
         <div class="row">
             <div class="col-2">
@@ -162,10 +162,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Testimonial -->
-<div class="testimonial">
+<!-- <div class="testimonial">
     <div class="small-container">
         <div class="row">
             <div class="col-3">
@@ -212,11 +212,11 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Brands -->
 
-<div class="brands">
+<!-- <div class="brands">
     <div class="small-container">
         <div class="row">
             <div class="col-5">
@@ -236,10 +236,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Footer -->
-<div class="footer">
+<!-- <div class="footer">
     <div class="container">
         <div class="row">
             <div class="footer-col-1">
@@ -277,10 +277,10 @@
         <hr>
         <p class="copyright">Copyright 2020 - Samwit Adhikary</p>
     </div>
-</div>
+</div> -->
 
 <!-- javascript -->
-
+<!-- 
 <script>
     var MenuItems = document.getElementById("MenuItems");
     MenuItems.style.maxHeight = "0px";
@@ -292,8 +292,8 @@
             MenuItems.style.maxHeight = "0px"
         }
     }
-</script>
-
+</script> -->
+<!-- 
 </body>
 
-</html>
+</html> --> 
