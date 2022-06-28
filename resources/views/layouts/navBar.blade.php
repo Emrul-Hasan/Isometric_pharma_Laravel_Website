@@ -70,7 +70,7 @@
 
                         <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('supplement') }}">Supplement & vitamines</a>
-                          <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('phone') }}">Mobile</a>
+                          <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('medicine') }}">Medicine</a>
                           <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('personal') }}">Personal care</a>
                           <a class="dropdown-item fw-bold nav-link mx-2 text-danger" href="{{ route ('herbal') }}">Herbal</a>
                         </div>

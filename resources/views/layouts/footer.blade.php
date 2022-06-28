@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <p class="text-center py-4 fw-bold"><small  class="text-white">Copyright 2021 || All Rights Reserved by ISO Pharma Team</small></p>
+            <p class="text-center py-4 fw-bold"><small  class="text-white"> &copy 2022 || All Rights Reserved by ISO Pharma Team</small></p>
         </div>
     </div>
 </div>

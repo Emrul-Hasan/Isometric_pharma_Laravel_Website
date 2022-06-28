@@ -41,11 +41,11 @@ class ProductController extends Controller
 
 
     // category page
-    public function phone()
+    public function medicine()
     {
         $ratings = ProductRating::all();
-        $product = Product::where('category', 'phone')->get();
-        return view('pages.category.phone', ['phone' => $product], ['ratings' => $ratings]);
+        $product = Product::where('category', 'medicine')->get();
+        return view('pages.category.medicine', ['medicine' => $product], ['ratings' => $ratings]);
     }
     public function herbal()
     {

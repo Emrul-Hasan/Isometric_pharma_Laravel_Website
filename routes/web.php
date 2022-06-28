@@ -38,7 +38,7 @@ Route::get('/checkout', function () {
     return view('pages.checkout.checkout');
 })->name('checkout');
 // category (Product COntroller)
-Route::get('/phone',[ProductController::class,'phone'])->name('phone');
+Route::get('/medicine',[ProductController::class,'medicine'])->name('medicine');
 Route::get('/personal',[ProductController::class,'personal'])->name('personal');
 Route::get('/supplement',[ProductController::class,'supplement'])->name('supplement');
 Route::get('/herbal',[ProductController::class,'herbal'])->name('herbal');
