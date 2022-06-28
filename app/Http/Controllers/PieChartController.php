@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class ProductPieChartController extends Controller
+class PieChartController extends Controller
 {
     function productPieChart(){
 
@@ -19,9 +19,6 @@ class ProductPieChartController extends Controller
         
         return view('pages.product.productPieChart',$arr);
 
-        // $result=DB::select(DB::raw("SELECT count(*) as total_category, category from products group by category"));
-        // dd($result);
-
 
     }
     function allOrderListStatusPieChart(){
@@ -34,8 +31,6 @@ class ProductPieChartController extends Controller
             $orderStatusPieChartData.="['".$list->status."',    ".$list->total_status."],";
         }
         $arr['orderStatusPieChartData']=rtrim($orderStatusPieChartData,",");
-
-
 
         return view("pages.order.allOrderListStatusPieChart",$arr);
     }
