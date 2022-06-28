@@ -264,6 +264,6 @@ Route::get('updateServiceReview/{id}',[ServiceRatingController::class,'editServi
 Route::post('updateServiceReview',[ServiceRatingController::class,'updateServiceReview'])->name('updateServiceReview');
 
 //Product Pie chart Controller
-Route::get('productPieChart',[PieChartController::class,'productPieChart'])->name('productPieChart')->middleware([ValidSProviderOrAdmin::class]);;
+Route::get('productPieChart',[PieChartController::class,'productPieChart'])->name('productPieChart')->middleware([ValidSProviderOrAdmin::class]);
 
-Route::get('allOrderListStatusPieChart',[PieChartController::class,'allOrderListStatusPieChart'])->name('allOrderListStatusPieChart')->middleware([ValidSProviderOrAdmin::class]);;;
+Route::get('allOrderListStatusPieChart',[PieChartController::class,'allOrderListStatusPieChart'])->name('allOrderListStatusPieChart')->middleware([ValidSProviderOrAdmin::class]);
