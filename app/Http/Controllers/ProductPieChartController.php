@@ -24,5 +24,20 @@ class ProductPieChartController extends Controller
 
 
     }
+    function allOrderListStatusPieChart(){
+   
+
+        $result=DB::select(DB::raw("SELECT count(*) as total_status, status from orders group by status"));
+        $orderStatusPieChartData="";
+        foreach($result as $list)
+        {
+            $orderStatusPieChartData.="['".$list->status."',    ".$list->total_status."],";
+        }
+        $arr['orderStatusPieChartData']=rtrim($orderStatusPieChartData,",");
+
+
+
+        return view("pages.order.allOrderListStatusPieChart",$arr);
+    }
     
 }

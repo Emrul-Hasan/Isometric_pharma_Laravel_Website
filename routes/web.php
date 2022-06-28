@@ -266,4 +266,4 @@ Route::post('updateServiceReview',[ServiceRatingController::class,'updateService
 //Product Pie chart Controller
 Route::get('productPieChart',[ProductPieChartController::class,'productPieChart'])->name('productPieChart')->middleware([ValidSProviderOrAdmin::class]);;
 
-
+Route::get('allOrderListStatusPieChart',[ProductPieChartController::class,'allOrderListStatusPieChart'])->name('allOrderListStatusPieChart')->middleware([ValidSProviderOrAdmin::class]);;;
