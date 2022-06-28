@@ -71,7 +71,7 @@
                                  @endfor
                             <td>{{ $rating->review }}</td>                               
                            <td> 
-                            <a class="btn btn-warning btn-sm" href={{ "/updateServiceReview/" .$rating->id }}>Update</a>
+                            <!-- <a class="btn btn-warning btn-sm" href={{ "/updateServiceReview/" .$rating->id }}>Update</a> -->
                             <a class="btn btn-danger btn-sm" href={{ "/deleteServiceReview/" .$rating->id
                             }}>Delete</a>
                            </td>

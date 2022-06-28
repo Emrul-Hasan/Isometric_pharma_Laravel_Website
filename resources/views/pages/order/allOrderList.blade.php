@@ -94,6 +94,8 @@
                     @endforeach
                 </table>
                 <a class="btn btn-primary btn-sm mb-3 px-3" href="{{route('adminDashboard')}}">Home</a>
+               
+
             </div>
         </div>
     </div>

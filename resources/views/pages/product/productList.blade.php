@@ -89,6 +89,7 @@
                         @endforeach
                     </table>
                     <a class="btn btn-success btn-sm mb-3 px-3" href="{{route('adminDashboard')}}">Home</a>
+                    <a class="btn btn-success btn-sm mb-3 px-3" href="{{route('productPieChart')}}">Product Overview</a>
                 </div>
             </div>
         </div>
