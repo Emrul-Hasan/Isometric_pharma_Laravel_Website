@@ -8,6 +8,8 @@
     <title>Seller List</title>
     <style>
         body {
+            background-image: linear-gradient(45deg,#F5AAAA,#6EDBFC);
+            /* background-image: linear-gradient(45deg,#F7E8F2,#756BFF); */
             max-width: 100%;
             overflow-x: hidden;
         }
@@ -17,7 +19,8 @@
 @extends('../../layouts.app')
 @section('content')
 <div class="row">
-    <div class="col-3" style="min-height: 88vh; background-image: linear-gradient(45deg,  #3D0000,#0b006e)">
+    <!-- <div class="col-3" style="min-height: 88vh; background-image: linear-gradient(45deg,  #3D0000,#6c66a8)"> -->
+    <div class="col-3" style="min-height: 88vh; background-image: linear-gradient(45deg,  #3D0000,#6c66a8)">
         @include('pages.admin.adminSideBar')
     </div>
     <div class="col-9">
@@ -45,7 +48,7 @@
                     </span>
                 </div>
                 @endif
-                <h4 class="my-4 fw-bold text-uppercase">Seller List</h4>
+                <h4  class="my-4 fw-bold text-uppercase text-center">Seller List</h4>
                 {{-- {{ $admin->name }} --}}
                 <table class="table table-borded table-striped">
                     <tr class="text-center">
@@ -84,8 +87,10 @@
                     </tr>
                     @endforeach
                 </table>
-                <a class="btn btn-primary btn-sm mb-3 px-3" href="{{route('addSeller')}}">Add</a>
+           
+                <a class="btn btn-primary btn-sm mb-3 px-3 " href="{{route('addSeller')}}">Add</a>
                 <a class="btn btn-success btn-sm mb-3 px-3" href="{{route('adminDashboard')}}">Home</a>
+           
             </div>
         </div>
     </div>

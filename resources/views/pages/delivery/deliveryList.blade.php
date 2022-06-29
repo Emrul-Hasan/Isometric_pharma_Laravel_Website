@@ -10,6 +10,8 @@
         body {
             max-width: 100%;
             overflow-x: hidden;
+            background-image: linear-gradient(45deg,#F5AAAA,#FAF9F9);
+          
         }
     </style>
 </head>
@@ -50,7 +52,7 @@
                     </span>
                 </div>
                 @endif
-                <h4 class="my-4 fw-bold  text-uppercase">Delivery List</h4>
+                <h4 class="my-4 fw-bold  text-uppercase text-center">Delivery List</h4>
                 <table class="table table-borded table-striped table-hover">
                     <tr class="text-center">
                         <th>Delivery Id</th>

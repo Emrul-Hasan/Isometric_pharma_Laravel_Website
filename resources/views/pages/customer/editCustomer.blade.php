@@ -18,7 +18,7 @@
     <div class="d-flex justify-content-center align-items-center" style="
     
     width: 100%;
-    background-image: linear-gradient(45deg,  #3D0000,#172774);
+    background-image: url('../../images/edit-area.jpg');
     ">
         <div>
             <div class="form-area">

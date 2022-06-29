@@ -10,6 +10,7 @@
         body {
             max-width: 100%;
             overflow-x: hidden;
+            background-image: linear-gradient(45deg,#F5AAAA,#6EDBFC);
         }
 
         th,
@@ -51,7 +52,7 @@
                         </span>
                     </div>
                     @endif
-                    <h4 class="my-4 fw-bold  text-uppercase">Order List</h4>
+                    <h4 class="my-4 fw-bold  text-uppercase text-center">Order List</h4>
                     <table class="table table-borded table-striped table-hover">
                         <tr class="text-center">
                             <th>Order Id</th>

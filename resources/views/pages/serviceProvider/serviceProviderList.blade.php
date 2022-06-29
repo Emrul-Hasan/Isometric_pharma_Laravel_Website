@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Service Provider List</title>
     <style>
-        body { max-width: 100%; overflow-x: hidden; }
+        body { max-width: 100%; 
+            overflow-x: hidden; 
+            background-image: linear-gradient(45deg,#F5AAAA,#6EDBFC);}
     </style>
 </head>
 
@@ -37,7 +39,7 @@
                     </span>
                 </div>
                 @endif
-                <h4 class="my-4 fw-bold text-uppercase">service Provider List</h4>
+                <h4 class="my-4 fw-bold text-uppercase text-center">service Provider List</h4>
                 <table class="table table-borded table-striped table-hover">
                     <tr class="text-center">
                         <th class="">Id</th>

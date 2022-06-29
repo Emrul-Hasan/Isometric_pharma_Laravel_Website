@@ -19,7 +19,7 @@
         <div class="d-flex justify-content-center align-items-center" style="
     
         width: 100%;
-        background-image: linear-gradient(45deg,  #3D0000,#172774);
+        background-image: linear-gradient(45deg,  #FFE6E6,#172774);
         ">
             <div>
                 <div class="form-area">

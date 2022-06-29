@@ -20,7 +20,7 @@
 <body >
     @extends('../../layouts.app')
     @section('content')
-    <div class="row"  style=" background: #FFF0F5;">
+    <div class="row"  style=" background-image: linear-gradient(45deg,#F5AAAA,#6EDBFC);">
 
   <!-- profile left side background color -->
         <div class="col-3" style="min-height: 88vh; background-image: linear-gradient(45deg,  #3D0000,#6c66a8)">

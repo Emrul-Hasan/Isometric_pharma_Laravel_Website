@@ -11,6 +11,7 @@
         body {
             max-width: 100%;
             overflow-x: hidden;
+            background-image: linear-gradient(45deg,#F5AAAA,#FAF9F9);
         }
     </style>
 </head>

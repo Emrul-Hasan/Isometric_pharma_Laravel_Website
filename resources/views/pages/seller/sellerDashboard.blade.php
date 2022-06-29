@@ -11,6 +11,7 @@
         body {
             max-width: 100%;
             overflow-x: hidden;
+            background-image: linear-gradient(45deg,#F5AAAA,#6EDBFC);
         }
     </style>
 </head>
@@ -49,7 +50,7 @@
                     <div class="d-flex align-items-center justify-content-center" style="height: 90vh;">
                         <div class="p-5"
                             style="border-radius: 10px; background: #EFE3D0; height: 400px;width:430px ;box-shadow: 3px 3px 10px gray;">
-                            <h4 class="mb-5 fw-bold text-danger text-uppercase">Profile Picture</h4>
+                            <h4 class="mb-5 fw-bold text-danger text-uppercase text-center">Profile Picture</h4>
                             <img src="{{ asset('uploads/sellerProfile/'.$seller->image) }}" alt="{{ $seller->name }}"
                                 width="130px" height="160px">
                             @if($seller->image == '')
@@ -85,7 +86,7 @@
                     <div class="d-flex align-items-center justify-content-center" style="height: 90vh;">
                         <div class="p-5"
                             style="border-radius: 10px; background: #EFE3D0; height: 400px; width:430px; box-shadow: 3px 3px 10px gray;">
-                            <h4 class="mb-5 fw-bold text-danger text-uppercase">Seller Information</h4>
+                            <h4 class="mb-5 fw-bold text-danger text-uppercase text-center">Seller Information</h4>
                             <div class="h5 fw-bold my-3 form-control">
                                 Name : {{ $seller->name }}
                             </div>
