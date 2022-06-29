@@ -20,7 +20,7 @@
 <div>
      
 <!-- background color: linear-gradient(#fff,whitesmoke); -->
-    <div style=" background: #FFEEF8;">
+    <div style="background-image: url('../../images/homedesign.jpg');">
         {{-- header start --}}
         <div class="header">
             <div class="container">
