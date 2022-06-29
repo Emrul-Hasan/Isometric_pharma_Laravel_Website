@@ -1,19 +1,20 @@
-#Online Pharmacies 
-#Type of user: 1. Admin, 2. Sales Man, 3. User/Consumer, 4. Delivery Man
-Common features for all users:
-1.	All users can log in to the system
-2.	All users can Registration in the system
-3.	CRUD operation
+# Online Pharmacies 
+
+## Type of user: 1. Admin, 2. Sales Man, 3. User/Consumer, 4. Delivery Man
+***Common features for all users:***
+* All users can log in to the system
+* All users can Registration in the system
+* CRUD operation
 Features of Admin:
-1.	Manage the overall system
-2.	Access and show all information of every user
-3.	Approve salesman & Delivery Man
+*	Manage the overall system
+*	Access and show all information of every user
+*	Approve salesman & Delivery Man
 Features of Sells Man 
-1.	Admin will approve new seller 
-2.	Cancel the order if the customer did not pay
-3.	Can see delivery status
-4.	Process an Order
-5.	Contact Admin, Deliveryman & Customer
+*	Admin will approve new seller 
+*	Cancel the order if the customer did not pay
+*	Can see delivery status
+*	Process an Order
+*	Contact Admin, Deliveryman & Customer
 Features of User/Consumer
 1.	Search Medicine
 2.	Can place an order
