@@ -1,5 +1,5 @@
 <div>
-    <div class="footer-area pt-5" style="background-color:#322424">
+    <div class="footer-area pt-3" style="background-color:#322424">
         <div class="container text-white">
             <div class="row">
                 <div class="col-sm-3">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-sm-3 px-5">
                     <div>
-                        <h4 class="mb-4 text-white">Links</h4>
+                        <h4 class="mb-3 text-white">Links</h4>
                     </div>
                     <div class="text-white fw-bold">
                         <div> <a class="text-white " href="/blog" style="text-decoration: none;">Blog</a> </div>
@@ -55,6 +55,34 @@
                        
                     </div>
                 </div>
+
+                <div class="container" align="center">
+  <div id = "a"><br>
+    <div class="row">
+      <div class="col-sm">
+      <h6>Payment with</h6>
+      <img src="{{URL('images/footerLogo/R1.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R2.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R3.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R4.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R5.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R6.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R7.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R8.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R9.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R10.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R11.jpg')}}" height="30" width="50">
+      <img src="{{URL('images/footerLogo/R12.jpg')}}" height="30" width="50">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
             </div>
             <p class="text-center py-4 fw-bold"><small  class="text-white"> &copy 2022 || All Rights Reserved by ISO Pharma Team</small></p>
         </div>
