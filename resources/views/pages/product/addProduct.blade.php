@@ -17,7 +17,7 @@
     <div class="d-flex justify-content-center align-items-center" style="
     min-height: 100vh;
     width: 100%;
-    background-image: url('../../images/add-area.jpg');
+    background-image: url('../../images/navyBackground2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
