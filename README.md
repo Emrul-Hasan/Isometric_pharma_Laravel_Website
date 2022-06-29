@@ -11,21 +11,21 @@
 *	Access and show all information of every user
 *	Approve salesman & Delivery Man
 
-***Features of Sells Man ***
+***Features of Sells Man:***
 *	Admin will approve new seller 
 *	Cancel the order if the customer did not pay
 *	Can see delivery status
 *	Process an Order
 *	Contact Admin, Deliveryman & Customer
 
-***Features of User/Consumer***
+***Features of User/Consumer:***
 *	Search Medicine
 *	Can place an order
 *	Payment on a card system
 *	Review & Rating
 *	Access Order & Delivery history
 
-***Features of Delivery Man***
+***Features of Delivery Man:***
 *	Take a shipment order
 *	Order delivery, Contact the customer, can give delivery status 
 *	Delivery & payment history
