@@ -15,7 +15,7 @@
     <div style=" 
       border-radius: 10px;
       width: 400px;
-      background-color:aqua;
+      background-color:papayawhip;
       padding: 20px 10px;
     color: white;">
       <form action="{{route('updateOrderStatus')}}" method="post">
@@ -25,7 +25,7 @@
             padding: 3px 15px;
             border-radius: 20px;
             border: 2px solid transparent;
-            background-color:gray);
+            background-color:gray;
             color: black;
             font-weight: 600;
             transition: 0.5s;

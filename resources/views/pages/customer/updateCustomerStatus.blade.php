@@ -15,7 +15,7 @@
     <div style=" 
       border-radius: 10px;
       width: 400px;
-      background-color:aqua;
+      background-color:papayawhip;
       padding: 20px 10px;
     color: white;">
       <form action="{{route('approveCustomer')}}" method="post">

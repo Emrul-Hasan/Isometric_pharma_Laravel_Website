@@ -13,6 +13,7 @@ class PDFController extends Controller
     public function invoiceMail()
 
     {
+       
 
         $data["email"] = "isop667@gmail.com";
         $data["title"] = "From ISOPharma.com";
@@ -23,8 +24,10 @@ class PDFController extends Controller
                     ->subject($data["title"])
                     ->attachData($pdf->output(), "invoice.pdf");
         });
-        //dd('Mail sent successfully');
-        // return redirect('sellerOrder/'. session('id'));
-        return redirect("/");
+        
+      
+        return redirect("/sellerDashboard");
+       
+        
     }
 }

@@ -268,4 +268,4 @@ Route::post('updateServiceReview',[ServiceRatingController::class,'updateService
 Route::get('productPieChart',[PieChartController::class,'productPieChart'])->name('productPieChart')->middleware([ValidSProviderOrAdmin::class]);
 Route::get('allOrderListStatusPieChart',[PieChartController::class,'allOrderListStatusPieChart'])->name('allOrderListStatusPieChart')->middleware([ValidSProviderOrAdmin::class]);
 
-Route::get('send-email', [PDFController::class, 'invoiceMail']);
+Route::get('send-email', [PDFController::class, 'invoiceMail'])->middleware([ValidSellerOrCustomer::class])->middleware([ValidAdminOrSeller::class]);
