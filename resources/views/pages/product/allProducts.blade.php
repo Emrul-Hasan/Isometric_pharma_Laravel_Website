@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>All Products</title>
-
+   
 </head>
 @extends('../../layouts.app')
 @section('content')
+<body  style="
+    background-image: url('../../images/homedesign.jpg');">
 <div class="container">
     <div class="row">
         <h3 class="my-3 fw-bold">All Products</h3>
@@ -62,6 +64,7 @@
         {{ $allProducts->links('vendor.pagination.bootstrap-4') }}
     </div>
 </div>
+</body>
 @endsection
 
 </html>
