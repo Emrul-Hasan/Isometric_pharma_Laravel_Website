@@ -116,6 +116,8 @@ class OrderController extends Controller
         $order = Order::find($id);
         return view('pages.order.updateOrderStatus', ['status' => $order]);
     }
+
+
     // updateOrderStatus by seller and service provider
     function updateOrderStatus(Request $request)
     {

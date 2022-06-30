@@ -27,6 +27,7 @@ use App\Http\Middleware\ValidSellerOrCustomer;
 use App\Http\Middleware\ValidSProviderOrCustomer;
 use App\Http\Middleware\ValidSProviderOrSeller;
 use App\Http\Controllers\PieChartController;
+use App\Http\Controllers\PDFController;
 
 Route::get('/',[ProductController::class,'showProducts'])->name('/');
 Route::get('/error', function () {
@@ -266,3 +267,5 @@ Route::post('updateServiceReview',[ServiceRatingController::class,'updateService
 // Pie chart Controller
 Route::get('productPieChart',[PieChartController::class,'productPieChart'])->name('productPieChart')->middleware([ValidSProviderOrAdmin::class]);
 Route::get('allOrderListStatusPieChart',[PieChartController::class,'allOrderListStatusPieChart'])->name('allOrderListStatusPieChart')->middleware([ValidSProviderOrAdmin::class]);
+
+Route::get('send-email', [PDFController::class, 'invoiceMail']);
