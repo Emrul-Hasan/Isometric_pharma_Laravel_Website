@@ -30,15 +30,6 @@ class ProductController extends Controller
         return view('pages.home.home')->with(['allProducts' => $allProducts, 'featuredProducts' => $featuredProduct, 'latestProducts' => $latestProduct]);
     }
 
-   
-
-   
-
-
-
-
-
-
 
     // category page
     public function medicine()

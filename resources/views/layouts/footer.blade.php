@@ -77,12 +77,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
             </div>
             <p class="text-center py-4 fw-bold"><small  class="text-white"> &copy 2022 || All Rights Reserved by ISO Pharma Team</small></p>
         </div>

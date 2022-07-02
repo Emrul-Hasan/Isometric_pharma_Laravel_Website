@@ -53,7 +53,7 @@
 
 
                 <div class="brandFont text-white pt-1 d-flex justify-content-center align-items-center px-2 font-weight-bold"
-                    style="border:2px solid red;">
+                    style="border:2px solid hotpink;">
                     <h5 class="fw-bold" style="color: rgb(59, 253, 0); font-weight: bold">
                         <span><</span> </h5>
                     <h5 class="fw-bold">Isometric Shop</h5>

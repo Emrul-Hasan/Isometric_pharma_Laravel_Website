@@ -131,19 +131,6 @@ Route::get('/orderList',[OrderController::class,'allOrderList'])->name('orderLis
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // for seller
 Route::post('/addProduct',[ProductController::class,'listingProduct'])->name('addProduct')->middleware([ValidSeller::class]);
 Route::get('/addProduct',[ProductController::class,'allProduct'])->name('addProduct')->middleware([ValidSeller::class]);
@@ -160,16 +147,6 @@ Route::post('/updateSellerImage',[SellerController::class,'updateSellerImage'])-
 Route::get('/productRatings/{id}',[ProductController::class,'productRatings'])->name('productRatings/{id}')->middleware([ValidSeller::class]);
 // delete order by {seller}
 Route::get('sellerOrderDelete/{id}',[OrderController::class,'sellerOrderDelete'])->name('sellerOrderDelete/{id}')->middleware([ValidSeller::class]);
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -195,7 +172,6 @@ Route::get('deleteOrder/{id}',[OrderController::class,'deleteOrder'])->name('del
 Route::get('updateOrder/{id}',[OrderController::class,'EditOrder'])->name('updateOrder/{id}')->middleware([ValidCustomer::class]);
 Route::post('/updateOrder',[OrderController::class,'updateOrder'])->name('updateOrder');
 
-
 // for service provider
 // serviceProvider controller
 // edit service provider Profile  by own
@@ -219,7 +195,6 @@ Route::post('/addedNote',[ServiceController::class,'addNote'])->name('addedNote'
 Route::get('/deleteNote/{id}',[ServiceController::class,'deleteNote'])->name('deleteNote/{id}')->middleware([ValidSProvider::class]);
 Route::get('/updateNote/{id}',[ServiceController::class,'sendData'])->name('updateNote/{id}')->middleware([ValidSProvider::class]);
 Route::post('/updateNote',[ServiceController::class,'updateNote'])->name('updateNote');
-
 
 // common 
 Route::get('/productList',[ProductController::class,'productList'])->name('productList')->middleware([ValidAdminOrSeller::class]);
@@ -249,8 +224,7 @@ Route::get('deleteProductReview/{id}',[ProductRatingController::class,'deletePro
 Route::get('updateProductReview/{id}',[ProductRatingController::class,'editProductReview'])->name('updateProductReview/{id}')->middleware([ValidSellerOrCustomer::class]);
 Route::post('updateProductReview',[ProductRatingController::class,'updateProductReview'])->name('updateProductReview');
 
-
-// delivery controller
+// delivery controller 
 Route::get('addToDelivery/{id}',[DeliveryController::class,'addToDelivery'])->name('addToDelivery/{id}')->middleware([ValidSProvider::class]);
 Route::post('addToDelivery',[DeliveryController::class,'AddDelivery'])->name('addToDelivery');
 Route::get('deliveryDelete/{id}',[DeliveryController::class,'deliveryDelete'])->name('deliveryDelete/{id}')->middleware([ValidSProvider::class]);

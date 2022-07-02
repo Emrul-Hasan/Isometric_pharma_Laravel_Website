@@ -10,6 +10,7 @@
 </head>
 @extends('../../layouts.app')
 @section('content')
+<body style="background-image: url('../../images/homedesign.jpg');">
 <div class="container">
     <div class="row">
         <h3 class="my-3 fw-bold">Supplement & vitamines</h3>
@@ -62,6 +63,7 @@
         {{ $allProducts->links('vendor.pagination.bootstrap-4') }}
     </div> --}}
 </div>
+</body>
 @endsection
 
 </html>

@@ -75,9 +75,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td > <label class="pr-3">Email</label></td>
-                                <td class="pr-3 py-2"><input value={{ $sellers->email }} type="text" name="email"
-                                        class="form-control">
+                                <td > <label class="pr-3 ">Email</label></td>
+                                <td class="pr-3 py-2 btn-close" style="pointer-events: none;"  ><input value={{ $sellers->email }} type="text" name="email"  
+                                        class="form-control ">
+                                        
                                 </td>
                                 <td>
                                     <div>
@@ -119,7 +120,7 @@
                             </tr>
                             <tr>
                                 <td><label class="pr-3">Password</label></td>
-                                <td class="pr-3 py-2"><input value={{ $sellers->password }} type="password"
+                                <td  class="pr-3 py-2 btn-close" style="pointer-events: none;" ><input value={{ $sellers->password }} type="password"
                                         name="password" class="form-control"></td>
                                 <td>
                                     <div>

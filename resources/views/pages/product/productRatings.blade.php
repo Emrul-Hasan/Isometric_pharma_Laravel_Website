@@ -54,7 +54,7 @@
                             <th>Customer Name</th>
                             <th>Rating</th>
                             <th>Review</th>
-                            <th>Action</th>
+                            <!-- <th>Action</th> -->
                         </tr>
 
                         @foreach ($ratings as $rating)
@@ -69,11 +69,11 @@
                                  @endfor
                             </td>
                             <td>{{ $rating->review }}</td>
-                            <td>
+                            <!-- <td>
                                 <a class="btn btn-warning btn-sm" href={{ "/updateProductReview/" .$rating->id }}>Update</a>
                                 <a class="btn btn-danger btn-sm" href={{ "/deleteProductReview/" .$rating->id
                                 }}>Delete</a>
-                            </td>
+                            </td> -->
                         </tr>
                         @endforeach
 
