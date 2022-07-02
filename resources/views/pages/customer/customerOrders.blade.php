@@ -98,9 +98,16 @@
                             </td>
 
                             <td>
-                                <a class="btn  btn-info btn-sm" href={{ '/productRating/' .$order->productId
-                                    }}>P_Review</a>
-                                <a class="btn btn-warning btn-sm" href={{ "/updateOrder/" .$order->id }}>Update</a>
+                                <a class="btn  btn-info btn-sm" href={{ '/productRating/' .$order->productId }}>P_Review</a>
+
+                                    @if($order->status == 'Delivered')
+                                    <a style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/updateOrder/" .$order->id }} >Update</a>
+                                    @elseif($order->status == 'Going')
+                                    <a style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/updateOrder/" .$order->id }}>Update</a>
+                                    @else
+                                    <a class="btn btn-warning btn-sm" href={{ "/updateOrder/" .$order->id }}>Update</a>
+                                   @endif
+                               
                                 <a class="btn btn-danger btn-sm" href={{ "/deleteOrder/" .$order->id }}>Delete</a>
                             </td>
                         </tr>
