@@ -73,17 +73,17 @@
                         @if(session('role') == 'service')
                         <td>
                             @if($order->status == 'Pending')
-                            <a style="pointer-events: none; " class="btn btn-warning btn-sm"
+                            <a style="pointer-events: none; " class="btn btn-secondary btn-sm"
                                 href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
-                            <a style="pointer-events: none; " class="btn btn-primary btn-sm" href={{ "/addToDelivery/"
+                            <a style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/addToDelivery/"
                                 .$order->id }}>Add Delivery</a>
                             @elseif($order->status == 'Accept')
                             <a class="btn btn-warning btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
-                            <a style="pointer-events: none; " class="btn btn-primary btn-sm" href={{ "/addToDelivery/"
+                            <a style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/addToDelivery/"
                                 .$order->id }}>Add Delivery</a>
                             @elseif($order->status == 'Going')
                             <a class="btn btn-warning btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
-                            <a style="pointer-events: none; " class="btn btn-primary btn-sm" href={{ "/addToDelivery/"
+                            <a style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/addToDelivery/"
                                 .$order->id }}>Add Delivery</a>
                             @else
                             <a class="btn btn-warning btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
