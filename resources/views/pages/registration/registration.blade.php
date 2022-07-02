@@ -177,7 +177,7 @@
                     <div class="col-6">
                         <div class="registration-banner">
                             <div class="img-area">
-                                <img src="images/registration/registration-banner3.jpg" alt="img">
+                                <img src="images/registration/registration-banner5.jpg" alt="img">
                             </div>
                         </div>
                     </div>

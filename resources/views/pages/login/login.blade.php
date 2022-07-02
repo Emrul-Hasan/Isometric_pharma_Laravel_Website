@@ -22,7 +22,7 @@
                 <div class="row">
                     <div class="col-6 login-banner">
                         <div class="img-area">
-                            <img src="images/login/login-banner5.jpg" alt="img">
+                            <img src="images/login/login-banner6.jpg" alt="img">
                         </div>
                     </div>
                     <div class="col-6 login-content">
