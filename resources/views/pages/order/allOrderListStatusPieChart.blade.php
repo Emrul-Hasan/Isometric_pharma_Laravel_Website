@@ -20,7 +20,8 @@
 
         var options = {
           title: 'Order Status Chart',
-          is3D: true,
+          pieHole: 0.4,
+         
           
         
         };

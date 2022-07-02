@@ -30,8 +30,13 @@
                 <div class="mt-3 fw-bold d-flex justify-content-center align-items-center"
                     style="height: 30px; font-size:13px; color:red; padding:10px; width:100%; background: black; border-radius: 20px">
                     {{ session('image-added') }}
+
+                  
                 </div>
+               
                 @endif
+
+               
                 @if(session('image-update'))
                 <div class="mt-3 fw-bold d-flex justify-content-center align-items-center"
                     style="height: 30px; padding:10px;font-size:13px; width:100%;color:red; background:black; border-radius: 20px">

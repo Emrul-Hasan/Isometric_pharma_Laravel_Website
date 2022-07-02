@@ -70,39 +70,6 @@ class ProductController extends Controller
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // show single product details
     public function showProductDetails(Request $request)
     {
