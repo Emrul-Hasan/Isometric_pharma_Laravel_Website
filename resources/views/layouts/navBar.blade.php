@@ -50,8 +50,7 @@
         <div class="col-12 navbar navbar-expand-lg " style="background: #CCB6FF;">
             <div class="container py-1 px-5" style="background: darkblue; border-radius: 30px">
              
-
-
+            <img  class="mx-2"style="height: 30px" src="images/store.png" alt="img">
                 <div class="brandFont text-white pt-1 d-flex justify-content-center align-items-center px-2 font-weight-bold"
                     style="border:2px solid hotpink;">
                     <h5 class="fw-bold" style="color: rgb(59, 253, 0); font-weight: bold">
