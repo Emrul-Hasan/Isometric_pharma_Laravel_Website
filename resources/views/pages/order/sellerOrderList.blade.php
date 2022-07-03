@@ -88,14 +88,18 @@
                                     </td>
 
                                     <td> 
-                                        <a class="btn btn-primary btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
-                                        <a class="btn btn-danger btn-sm" href={{ "/sellerOrderDelete/" .$order->id }}>Delete</a>
-                                        
-                                       @if($order->status == 'Pending')
-                                        <a  style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/send-email" }}>Send Invoice</a>  
+                                    @if($order->status == 'Delivered')
+                                        <a  style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
+                                        <a  style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/send-email" }}>Send Invoice</a>    
+                                       @elseif($order->status == 'Pending')
+                                        <a  class="btn btn-primary btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
+                                        <a  style="pointer-events: none; " class="btn btn-secondary btn-sm" href={{ "/send-email" }}>Send Invoice</a>
+
                                         @else
+                                        <a  class="btn btn-primary btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
                                         <a class="btn btn-success btn-sm" href={{ "/send-email" }}>Send Invoice</a>  
-                                        @endif   
+                                        @endif  
+                                        <a class="btn btn-danger btn-sm" href={{ "/sellerOrderDelete/" .$order->id }}>Delete</a> 
                                     </td>
                                 </tr>       
                             @endif
