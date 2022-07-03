@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Models\ProductRating;
@@ -56,18 +55,6 @@ class ProductController extends Controller
         $product = Product::where('category', 'personal')->get();
         return view('pages.category.personal', ['personal' => $product], ['ratings' => $ratings]);
     }
-
-    
-
-
-
-
-
-
-
-
-
-
 
 
     // show single product details
