@@ -3,7 +3,7 @@
         <div class="col-12">
             <div class="bg-white">
                 <div class="container d-flex">
-                    <div class="d-flex ">
+                    <!-- <div class="d-flex ">
                         <div class="mail">
                             <span><i class="far fa-envelope"></i><small
                                     class="px-1 fw-bold">info@gmail.com</small></span>
@@ -16,8 +16,8 @@
                             <span><i class="fas fa-phone"></i><small class="px-1 fw-bold">01782387758,
                                     01641583278</small></span>
                         </div>
-                    </div>
-                    <div class="social-icon mx-auto">
+                    </div> -->
+                    <!-- <div class="social-icon mx-auto">
                         <small class="fw-bold">Available on : </small>
                         <a href="https://www.facebook.com/"><i class="px-1 fab fa-facebook"></i></a>
                         <a href="https://twitter.com/"><i class="px-1 fab fa-twitter"></i></a>
@@ -25,7 +25,7 @@
                         <a href="https://www.linkedin.com"><i class="px-1 fab fa-linkedin"></i></a>
                         <a href="https://www.github.com"> <i class="px-1 fab fa-github"></i></a>
 
-                    </div>
+                    </div> -->
                     <div class="login-info ms-auto">
                         @if(session()->has('name'))
                         @if(session('role')=== 'admin')
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 navbar navbar-expand-lg bg-info ">
+        <div class="col-12 navbar navbar-expand-lg " style="background: #CCB6FF;">
             <div class="container py-1 px-5" style="background: darkblue; border-radius: 30px">
              
 
