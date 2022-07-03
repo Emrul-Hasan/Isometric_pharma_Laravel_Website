@@ -12,7 +12,8 @@
 <body>
     <div class="d-flex justify-content-center align-items-center" style="height: 100vh; background: black;">
         <div>
-            <div class="text-danger font-weight-bold mb-4">
+        <img style="height:450px" src="images/Error-page.gif" alt="">
+            <div class="text-danger font-weight-bold mb-4 text-center fs-1">
                 You are not allow in this page!
               </div>
              <div class="text-center">
