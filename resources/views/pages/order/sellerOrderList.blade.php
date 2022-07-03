@@ -23,7 +23,7 @@
 @extends('../../layouts.app')
 @section('content')
 <div class="row">
-    <div class="col-3"  style="min-height: 88vh; background-image: linear-gradient(45deg,  #3D0000,#0b006e)">
+    <div class="col-3"  style="min-height: 88vh; background-image: linear-gradient(45deg,  #B8B1C7,#0b006e)">
         <div>
             @if(session('role') == 'admin')
             @include('pages.admin.adminSideBar')
