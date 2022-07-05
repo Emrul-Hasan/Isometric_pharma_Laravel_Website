@@ -98,7 +98,7 @@
                                         @else
                                         <a  class="btn btn-primary btn-sm" href={{ "/updateOrderStatus/" .$order->id }}>Update</a>
                                         <a class="btn btn-success btn-sm" href={{ "/send-email" }}>Send Invoice</a>  
-                                        @endif  
+                                    @endif
                                         <a class="btn btn-danger btn-sm" href={{ "/sellerOrderDelete/" .$order->id }}>Delete</a> 
                                     </td>
                                 </tr>       
