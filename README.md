@@ -30,4 +30,4 @@
 *	Order delivery, Contact the customer, can give delivery status 
 *	Delivery & payment history
 
-## ************ Project Report:[ Isometric Pharma](https://drive.google.com/file/d/1C_JmiL8Y4LvY262xjX4vpgISR68SIHca/view?usp=sharing)**************
+## ------------------ Project Report:[ Isometric Pharma](https://drive.google.com/file/d/1C_JmiL8Y4LvY262xjX4vpgISR68SIHca/view?usp=sharing)-----------------
